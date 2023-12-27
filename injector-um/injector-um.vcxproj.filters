@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="workspace">
+      <UniqueIdentifier>{55410344-28c3-4a86-8d95-13c561d5b692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\map">
+      <UniqueIdentifier>{360304b3-ba84-4960-b960-20ce92651096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\handler">
+      <UniqueIdentifier>{3c36e720-678a-458d-879b-adc221d22228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\utils">
+      <UniqueIdentifier>{0fdc9a85-a314-412f-91f5-5ac14165957e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="workspace/handler/handler.h">
+      <Filter>workspace\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace/custom_handler.h">
+      <Filter>workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace/map/map.h">
+      <Filter>workspace\map</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace/utils/utils.h">
+      <Filter>workspace\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace/log.h">
+      <Filter>workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace/workspace.h">
+      <Filter>workspace</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp" />
+    <ClCompile Include="workspace/handler/handler.cpp">
+      <Filter>workspace\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="workspace\map\map.cpp">
+      <Filter>workspace\map</Filter>
+    </ClCompile>
+    <ClCompile Include="workspace\utils\utils.cpp">
+      <Filter>workspace\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
